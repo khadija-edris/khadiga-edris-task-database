@@ -90,9 +90,9 @@
             this.label2.ForeColor = System.Drawing.Color.Teal;
             this.label2.Location = new System.Drawing.Point(276, 164);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(65, 28);
+            this.label2.Size = new System.Drawing.Size(108, 28);
             this.label2.TabIndex = 5;
-            this.label2.Text = "label2";
+            this.label2.Text = "User Name";
             // 
             // Form1
             // 
