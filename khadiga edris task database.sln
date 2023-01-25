@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "khadiga edris task database", "khadiga edris task database\khadiga edris task database.csproj", "{21161835-6A23-4A99-A03A-2E8F294185CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21161835-6A23-4A99-A03A-2E8F294185CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21161835-6A23-4A99-A03A-2E8F294185CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21161835-6A23-4A99-A03A-2E8F294185CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21161835-6A23-4A99-A03A-2E8F294185CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A0580452-44FB-4FC2-898C-42198CC2E4AA}
+	EndGlobalSection
+EndGlobal
