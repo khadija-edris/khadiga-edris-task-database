@@ -6,5 +6,10 @@ namespace khadiga_edris_task_database
         {
             InitializeComponent();
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
