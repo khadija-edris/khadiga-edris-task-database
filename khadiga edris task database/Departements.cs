@@ -32,7 +32,10 @@ namespace khadiga_edris_task_database
 
         private void AddBtn_Click(object sender, EventArgs e)
         {
-
+            try
+            {
+                
+            }
         }
     }
 }
