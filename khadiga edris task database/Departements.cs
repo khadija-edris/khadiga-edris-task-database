@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace khadiga_edris_task_database
 {
-    public partial class Departements : Form
+    public partial class DepNameTb : Form
     {
-        public Departements()
+        public DepNameTb()
         {
             InitializeComponent();
         }

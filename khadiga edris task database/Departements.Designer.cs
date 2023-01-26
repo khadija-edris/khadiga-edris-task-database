@@ -1,6 +1,6 @@
 ﻿namespace khadiga_edris_task_database
 {
-    partial class Departements
+    partial class DepNameTb
     {
         /// <summary>
         /// Required designer variable.
@@ -28,10 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Departements));
-            this.button2 = new System.Windows.Forms.Button();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DepNameTb));
+            this.FditBtn = new System.Windows.Forms.Button();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.button1 = new System.Windows.Forms.Button();
+            this.AddBtn = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -55,30 +55,30 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.SuspendLayout();
             // 
-            // button2
+            // FditBtn
             // 
-            this.button2.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.Location = new System.Drawing.Point(285, 311);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(135, 53);
-            this.button2.TabIndex = 43;
-            this.button2.Text = "Update";
-            this.button2.UseVisualStyleBackColor = false;
+            this.FditBtn.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.FditBtn.FlatAppearance.BorderSize = 0;
+            this.FditBtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.FditBtn.ForeColor = System.Drawing.Color.Black;
+            this.FditBtn.Location = new System.Drawing.Point(285, 311);
+            this.FditBtn.Name = "FditBtn";
+            this.FditBtn.Size = new System.Drawing.Size(135, 53);
+            this.FditBtn.TabIndex = 43;
+            this.FditBtn.Text = "Update";
+            this.FditBtn.UseVisualStyleBackColor = false;
             // 
-            // button1
+            // AddBtn
             // 
-            this.button1.BackColor = System.Drawing.Color.Teal;
-            this.button1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(78, 311);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(155, 53);
-            this.button1.TabIndex = 42;
-            this.button1.Text = "Add";
-            this.button1.UseVisualStyleBackColor = false;
+            this.AddBtn.BackColor = System.Drawing.Color.Teal;
+            this.AddBtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.AddBtn.ForeColor = System.Drawing.Color.White;
+            this.AddBtn.Location = new System.Drawing.Point(78, 311);
+            this.AddBtn.Name = "AddBtn";
+            this.AddBtn.Size = new System.Drawing.Size(155, 53);
+            this.AddBtn.TabIndex = 42;
+            this.AddBtn.Text = "Add";
+            this.AddBtn.UseVisualStyleBackColor = false;
             // 
             // pictureBox1
             // 
@@ -231,7 +231,7 @@
             this.pictureBox6.TabIndex = 53;
             this.pictureBox6.TabStop = false;
             // 
-            // Departements
+            // DepNameTb
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 28F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -245,8 +245,8 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.FditBtn);
+            this.Controls.Add(this.AddBtn);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.textBox1);
@@ -255,8 +255,8 @@
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.Name = "Departements";
+            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Name = "DepNameTb";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Departements";
             this.Load += new System.EventHandler(this.Departements_Load);
@@ -274,9 +274,9 @@
 
         #endregion
 
-        private Button button2;
+        private Button FditBtn;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
-        private Button button1;
+        private Button AddBtn;
         private PictureBox pictureBox1;
         private Panel panel2;
         private TextBox textBox1;
