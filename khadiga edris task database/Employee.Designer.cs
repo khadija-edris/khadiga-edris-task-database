@@ -110,7 +110,7 @@
             // 
             this.textBox2.Location = new System.Drawing.Point(78, 338);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(353, 34);
+            this.textBox2.Size = new System.Drawing.Size(342, 34);
             this.textBox2.TabIndex = 9;
             // 
             // textBox3
@@ -141,9 +141,9 @@
             this.label5.ForeColor = System.Drawing.Color.Teal;
             this.label5.Location = new System.Drawing.Point(78, 392);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(155, 28);
+            this.label5.Size = new System.Drawing.Size(208, 28);
             this.label5.TabIndex = 13;
-            this.label5.Text = "Employee Name";
+            this.label5.Text = "Employee Department";
             // 
             // label6
             // 
