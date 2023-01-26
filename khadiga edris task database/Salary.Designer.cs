@@ -349,9 +349,9 @@
             this.Controls.Add(this.label7);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.ForeColor = System.Drawing.Color.White;
+            this.ForeColor = System.Drawing.Color.Black;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Salary";
             this.Text = "Salary";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

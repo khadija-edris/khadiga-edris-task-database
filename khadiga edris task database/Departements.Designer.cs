@@ -47,14 +47,14 @@
             this.label8 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.DepList = new System.Windows.Forms.ListView();
+            this.label7 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.SuspendLayout();
             // 
             // FditBtn
@@ -134,7 +134,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(553, 45);
+            this.label1.Location = new System.Drawing.Point(553, 55);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(387, 28);
             this.label1.TabIndex = 1;
@@ -145,6 +145,7 @@
             this.panel1.BackColor = System.Drawing.Color.Teal;
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.ForeColor = System.Drawing.Color.Black;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1386, 125);
@@ -234,13 +235,24 @@
             this.pictureBox6.TabIndex = 53;
             this.pictureBox6.TabStop = false;
             // 
-            // pictureBox5
+            // DepList
             // 
-            this.pictureBox5.Location = new System.Drawing.Point(484, 268);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(830, 562);
-            this.pictureBox5.TabIndex = 54;
-            this.pictureBox5.TabStop = false;
+            this.DepList.Location = new System.Drawing.Point(505, 292);
+            this.DepList.Name = "DepList";
+            this.DepList.Size = new System.Drawing.Size(826, 606);
+            this.DepList.TabIndex = 55;
+            this.DepList.UseCompatibleStateImageBehavior = false;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label7.ForeColor = System.Drawing.Color.Teal;
+            this.label7.Location = new System.Drawing.Point(824, 248);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(151, 28);
+            this.label7.TabIndex = 56;
+            this.label7.Text = "Department List";
             // 
             // Departement
             // 
@@ -248,7 +260,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1386, 936);
-            this.Controls.Add(this.pictureBox5);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.DepList);
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.label8);
@@ -266,6 +279,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.ForeColor = System.Drawing.Color.White;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Departement";
@@ -279,7 +293,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -305,6 +318,7 @@
         private Label label8;
         private PictureBox pictureBox4;
         private PictureBox pictureBox6;
-        private PictureBox pictureBox5;
+        private ListView DepList;
+        private Label label7;
     }
 }
