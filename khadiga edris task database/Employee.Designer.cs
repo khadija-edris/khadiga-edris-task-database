@@ -74,9 +74,9 @@
             this.label3.ForeColor = System.Drawing.Color.Teal;
             this.label3.Location = new System.Drawing.Point(69, 235);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(108, 28);
+            this.label3.Size = new System.Drawing.Size(155, 28);
             this.label3.TabIndex = 6;
-            this.label3.Text = "User Name";
+            this.label3.Text = "Employee Name";
             // 
             // textBox1
             // 
