@@ -17,6 +17,7 @@ namespace khadiga_edris_task_database
         {
             InitializeComponent();
             Con = new Funcation();
+            ListerDepartment();
         }
         private void ListerDepartment()
         {
