@@ -12,6 +12,7 @@ namespace khadiga_edris_task_database
 {
     public partial class DepNameTb : Form
     {
+        Funcation Con;
         public DepNameTb()
         {
             InitializeComponent();
@@ -19,6 +20,7 @@ namespace khadiga_edris_task_database
         private void ListerDepartment()
         {
             string Qurey = "Select * from DepartmentTbl"
+            DepList.DataSource = 
         }
 
         private void Departements_Load(object sender, EventArgs e)
