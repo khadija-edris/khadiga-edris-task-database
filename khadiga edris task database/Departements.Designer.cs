@@ -79,6 +79,7 @@
             this.AddBtn.TabIndex = 42;
             this.AddBtn.Text = "Add";
             this.AddBtn.UseVisualStyleBackColor = false;
+            this.AddBtn.Click += new System.EventHandler(this.AddBtn_Click);
             // 
             // pictureBox1
             // 

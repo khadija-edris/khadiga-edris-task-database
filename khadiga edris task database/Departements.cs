@@ -16,8 +16,14 @@ namespace khadiga_edris_task_database
         {
             InitializeComponent();
         }
+        private 
 
         private void Departements_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void AddBtn_Click(object sender, EventArgs e)
         {
 
         }
