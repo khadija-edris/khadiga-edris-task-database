@@ -21,7 +21,7 @@ namespace khadiga_edris_task_database
         private void ListerDepartment()
         {
             string Qurey = "Select * from DepartmentTbl"
-            DepList.DataSource = 
+            DepList.DataSource = Con.GetData(Qurey);
         }
 
         private void Departements_Load(object sender, EventArgs e)
