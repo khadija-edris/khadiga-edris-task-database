@@ -37,6 +37,9 @@ namespace khadiga_edris_task_database
                 if (DepNameTb.Text == "")
                 {
 
+                }else
+                {
+
                 }
             }
         }
