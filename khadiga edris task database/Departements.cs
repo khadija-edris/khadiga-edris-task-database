@@ -16,7 +16,10 @@ namespace khadiga_edris_task_database
         {
             InitializeComponent();
         }
-        private 
+        private void ListerDepartment()
+        {
+            string Qurey = "Select * from DepartmentTbl"
+        }
 
         private void Departements_Load(object sender, EventArgs e)
         {
