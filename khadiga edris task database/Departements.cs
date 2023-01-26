@@ -42,6 +42,7 @@ namespace khadiga_edris_task_database
                     string Dep = DepNameTb.Text;
                     string Qurey = "insert into DepartmentTbl values(' {0} ')";
                     Qurey = string.Format(DepNameTb.Text);
+                    Con.SetData(Qurey);
                 }
             }
         }
