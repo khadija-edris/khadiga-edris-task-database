@@ -17,9 +17,9 @@ namespace khadiga_edris_task_database
         {
             InitializeComponent();
             Con = new Funcation();
-            ListerDepartment();
+            ShowDepartment();
         }
-        private void ListerDepartment()
+        private void ShowDepartment()
         {
             string Qurey = "Select * from DepartmentTbl"
             DepList.DataSource = Con.GetData(Qurey);
