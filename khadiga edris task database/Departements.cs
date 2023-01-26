@@ -47,6 +47,10 @@ namespace khadiga_edris_task_database
                     MessageBox.Show("Department Added!!!");
                     DepNameTb.Text = "";
                 }
+                catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
             }
         }
     }
