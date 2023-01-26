@@ -11,5 +11,10 @@ namespace khadiga_edris_task_database
         {
 
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
