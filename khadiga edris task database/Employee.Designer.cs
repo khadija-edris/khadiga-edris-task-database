@@ -32,6 +32,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -77,12 +78,20 @@
             this.label3.TabIndex = 6;
             this.label3.Text = "User Name";
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(69, 266);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(342, 34);
+            this.textBox1.TabIndex = 7;
+            // 
             // Employee
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 28F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1386, 936);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.panel1);
@@ -104,5 +113,6 @@
         private Label label1;
         private Label label2;
         private Label label3;
+        private TextBox textBox1;
     }
 }
