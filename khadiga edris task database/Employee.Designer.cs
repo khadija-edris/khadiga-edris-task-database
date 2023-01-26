@@ -152,9 +152,9 @@
             this.label6.ForeColor = System.Drawing.Color.Teal;
             this.label6.Location = new System.Drawing.Point(78, 476);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(155, 28);
+            this.label6.Size = new System.Drawing.Size(125, 28);
             this.label6.TabIndex = 14;
-            this.label6.Text = "Employee Name";
+            this.label6.Text = "Date Of Birth";
             // 
             // label7
             // 
