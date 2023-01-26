@@ -39,7 +39,7 @@ namespace khadiga_edris_task_database
                     MessageBox.Show("Missing Data!!!");
                 }else
                 {
-
+                    string Dep = DepNameTb.Text;
                 }
             }
         }
