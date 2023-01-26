@@ -163,9 +163,9 @@
             this.label7.ForeColor = System.Drawing.Color.Teal;
             this.label7.Location = new System.Drawing.Point(78, 568);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(155, 28);
+            this.label7.Size = new System.Drawing.Size(93, 28);
             this.label7.TabIndex = 15;
-            this.label7.Text = "Employee Name";
+            this.label7.Text = "Join Data";
             // 
             // label8
             // 
