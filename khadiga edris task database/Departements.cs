@@ -44,6 +44,8 @@ namespace khadiga_edris_task_database
                     Qurey = string.Format(DepNameTb.Text);
                     Con.SetData(Qurey);
                     ShowDepartment();
+                    MessageBox.Show("Department Added!!!");
+                    DepNameTb.Text = "";
                 }
             }
         }
