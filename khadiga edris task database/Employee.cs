@@ -30,6 +30,7 @@ namespace khadiga_edris_task_database
         private void GetDepatement()
         {
             String Query = "Select * from Departement";
+            DepCb.DisplayMember = Con.GetData(Query).Columns["DepName"].ToString();
         }
         private void EmpNameTb_TextChanged(object sender, EventArgs e)
         {
