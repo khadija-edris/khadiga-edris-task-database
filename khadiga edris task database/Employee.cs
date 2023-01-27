@@ -47,7 +47,7 @@ namespace khadiga_edris_task_database
                 {
                     string Name = EmpNameTb.Text;
                     string Gender = GenCb.SelectedItem.ToString();
-                    string Name = EmpNameTb.Text;
+                    string Dep = GenCb.SelectedValue.ToString();
                     string Name = EmpNameTb.Text;
                     string Name = EmpNameTb.Text;
                     string Name = EmpNameTb.Text;
