@@ -72,16 +72,16 @@
             // 
             // AddBtn
             // 
-            this.AddBtn.BackColor = System.Drawing.Color.Teal;
-            this.AddBtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.AddBtn.ForeColor = System.Drawing.Color.White;
-            this.AddBtn.Location = new System.Drawing.Point(78, 311);
-            this.AddBtn.Name = "AddBtn";
-            this.AddBtn.Size = new System.Drawing.Size(155, 53);
-            this.AddBtn.TabIndex = 42;
-            this.AddBtn.Text = "Add";
-            this.AddBtn.UseVisualStyleBackColor = false;
-            this.AddBtn.Click += new System.EventHandler(this.AddBtn_Click);
+            this.AddBtn.BackColor = System.Drawing.Color.Teal; 
+            this.AddBtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point); 
+            this.AddBtn.ForeColor = System.Drawing.Color.White; 
+            this.AddBtn.Location = new System.Drawing.Point(78, 311); 
+            this.AddBtn.Name = "AddBtn"; 
+            this.AddBtn.Size = new System.Drawing.Size(155, 53); 
+            this.AddBtn.TabIndex = 42; 
+            this.AddBtn.Text = "Add"; 
+            this.AddBtn.UseVisualStyleBackColor = false; 
+            this.AddBtn.Click += new System.EventHandler(this.AddBtn_Click); 
             // 
             // pictureBox1
             // 
