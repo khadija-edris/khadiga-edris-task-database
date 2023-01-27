@@ -136,6 +136,7 @@ namespace khadiga_edris_task_database
             GenCb.Text = EmployeeList.SelectedRows[0].Cells[2].Value.ToString();
             DepCb.SelectedValue = EmployeeList.SelectedRows[0].Cells[3].Value.ToString();
             DOBTb.Text = EmployeeList.SelectedRows[0].Cells[4].Value.ToString();
+            JDateTb.Text = EmployeeList.SelectedRows[0].Cells[5].Value.ToString();
             if (EmpNameTb.Text == "")
             {
                 key = 0;
