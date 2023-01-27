@@ -97,7 +97,7 @@ namespace khadiga_edris_task_database
                 else
                 {
                     string Dep = DepNameTb.Text;
-                    string Qurey = "Update DepartmentTbl set DepName = '{0}' where DepId = {1}";
+                    string Qurey = "Deleted from DepartmentTbl where DepId = {0}";
                     Qurey = string.Format(Qurey, DepNameTb.Text, Key);
                     Con.SetData(Qurey);
                     ShowDepartment();
