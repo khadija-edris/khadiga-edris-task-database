@@ -86,6 +86,29 @@ namespace khadiga_edris_task_database
                 MessageBox.Show(Ex.Message);
             }
         }
+        private void DeletBtn_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (DepNameTb.Text == "")
+                {
+                    MessageBox.Show("Missing Data!!!");
+                }
+                else
+                {
+                    string Dep = DepNameTb.Text;
+                    string Qurey = "Update DepartmentTbl set DepName = '{0}' where DepId = {1}";
+                    Qurey = string.Format(Qurey, DepNameTb.Text, Key);
+                    Con.SetData(Qurey);
+                    ShowDepartment();
+                    MessageBox.Show("Department Updated!!!");
+                    DepNameTb.Text = "";
+                }
+            }
+            catch (Exception Ex)
+            {
+                MessageBox.Show(Ex.Message);
+            }
 
-    }
+        }
 }
