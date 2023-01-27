@@ -60,6 +60,7 @@ namespace khadiga_edris_task_database
                     EmpNameTb.Text = "";
                     DailySalTb.Text = "";
                     GenCb.SelectedIndex = -1;
+                    DepCb.SelectedIndex = -1;
                 }
             }
             catch (Exception Ex)
