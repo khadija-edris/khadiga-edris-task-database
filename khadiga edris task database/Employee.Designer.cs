@@ -46,7 +46,7 @@
             this.DepCb = new System.Windows.Forms.ComboBox();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.DopTb = new System.Windows.Forms.DateTimePicker();
-            this.JDate = new System.Windows.Forms.DateTimePicker();
+            this.JDateTb = new System.Windows.Forms.DateTimePicker();
             this.AddBtn = new System.Windows.Forms.Button();
             this.UpdateBtn = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -227,15 +227,15 @@
             this.DopTb.Size = new System.Drawing.Size(342, 34);
             this.DopTb.TabIndex = 22;
             // 
-            // JDate
+            // JDateTb
             // 
-            this.JDate.CalendarTitleBackColor = System.Drawing.SystemColors.ControlText;
-            this.JDate.CalendarTitleForeColor = System.Drawing.Color.Teal;
-            this.JDate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.JDate.Location = new System.Drawing.Point(78, 599);
-            this.JDate.Name = "JDate";
-            this.JDate.Size = new System.Drawing.Size(342, 34);
-            this.JDate.TabIndex = 23;
+            this.JDateTb.CalendarTitleBackColor = System.Drawing.SystemColors.ControlText;
+            this.JDateTb.CalendarTitleForeColor = System.Drawing.Color.Teal;
+            this.JDateTb.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.JDateTb.Location = new System.Drawing.Point(78, 599);
+            this.JDateTb.Name = "JDateTb";
+            this.JDateTb.Size = new System.Drawing.Size(342, 34);
+            this.JDateTb.TabIndex = 23;
             // 
             // AddBtn
             // 
@@ -371,7 +371,7 @@
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.UpdateBtn);
             this.Controls.Add(this.AddBtn);
-            this.Controls.Add(this.JDate);
+            this.Controls.Add(this.JDateTb);
             this.Controls.Add(this.DopTb);
             this.Controls.Add(this.DepCb);
             this.Controls.Add(this.GenCb);
@@ -438,7 +438,7 @@
         private ComboBox DepCb;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private DateTimePicker DopTb;
-        private DateTimePicker JDate;
+        private DateTimePicker JDateTb;
         private Button AddBtn;
         private Button UpdateBtn;
         private PictureBox pictureBox2;

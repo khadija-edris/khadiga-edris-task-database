@@ -49,8 +49,8 @@ namespace khadiga_edris_task_database
                     string Gender = GenCb.SelectedItem.ToString();
                     string Dep = GenCb.SelectedValue.ToString();
                     string Dop = DopTb.Value.ToString();
-                    string Name = EmpNameTb.Text;
-                    string Name = EmpNameTb.Text;
+                    string JDate = JDateTb.Value.ToString();
+                    int  Salary = Convert.ToInt32(DailySalTb.Text);
                     string Qurey = "insert into DepartmentTbl values(' {0} ')";
                     Qurey = string.Format(Qurey, DepNameTb.Text);
                     Con.SetData(Qurey);
