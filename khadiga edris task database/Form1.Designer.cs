@@ -151,6 +151,6 @@
         private TextBox textBox2;
         private Label label2;
         private Label label3;
-        private Button button1;
+        private Button button1; 
     }
 }
