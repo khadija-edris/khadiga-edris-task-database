@@ -103,10 +103,10 @@
             // 
             // DepNameTb
             // 
-            this.DepNameTb.Location = new System.Drawing.Point(78, 248);
-            this.DepNameTb.Name = "DepNameTb";
-            this.DepNameTb.Size = new System.Drawing.Size(342, 34);
-            this.DepNameTb.TabIndex = 29;
+            this.DepNameTb.Location = new System.Drawing.Point(78, 248); 
+            this.DepNameTb.Name = "DepNameTb"; 
+            this.DepNameTb.Size = new System.Drawing.Size(342, 34); 
+            this.DepNameTb.TabIndex = 29; 
             // 
             // label3
             // 
