@@ -58,6 +58,7 @@ namespace khadiga_edris_task_database
                     ShowDep();
                     MessageBox.Show("Employee Added!!!");
                     EmpNameTb.Text = "";
+                    DailySalTb.Text = "";
                 }
             }
             catch (Exception Ex)
