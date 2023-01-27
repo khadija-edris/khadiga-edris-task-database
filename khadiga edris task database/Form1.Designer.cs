@@ -40,6 +40,8 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.resetbl = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -48,6 +50,8 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Teal;
+            this.panel1.Controls.Add(this.label6);
+            this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -151,12 +155,35 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(64, 114);
+            this.label4.Location = new System.Drawing.Point(61, 106);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(100, 20);
+            this.label4.Size = new System.Drawing.Size(132, 28);
             this.label4.TabIndex = 10;
             this.label4.Text = "Employee MS";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.Location = new System.Drawing.Point(86, 218);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(107, 28);
+            this.label5.TabIndex = 11;
+            this.label5.Text = "SQL Server";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label6.ForeColor = System.Drawing.Color.White;
+            this.label6.Location = new System.Drawing.Point(96, 164);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(72, 28);
+            this.label6.TabIndex = 12;
+            this.label6.Text = "C#.Net";
             // 
             // Form1
             // 
@@ -200,5 +227,7 @@
         private PictureBox pictureBox2;
         private Label resetbl;
         private Label label4;
+        private Label label6;
+        private Label label5;
     }
 }
