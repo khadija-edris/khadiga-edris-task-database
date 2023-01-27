@@ -320,5 +320,6 @@
         private PictureBox pictureBox6;
         private ListView DepList;
         private Label label7;
+        private Button button1;
     }
 }
