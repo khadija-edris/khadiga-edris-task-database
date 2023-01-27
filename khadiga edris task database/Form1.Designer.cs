@@ -145,7 +145,7 @@
         #endregion
 
         private Panel panel1; 
-        private Label label1;
+        private Label label1; 
         private PictureBox pictureBox1;
         private TextBox textBox1;
         private TextBox textBox2;
