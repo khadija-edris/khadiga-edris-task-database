@@ -113,6 +113,7 @@
             this.EmpNameTb.Name = "EmpNameTb";
             this.EmpNameTb.Size = new System.Drawing.Size(342, 34);
             this.EmpNameTb.TabIndex = 7;
+            this.EmpNameTb.TextChanged += new System.EventHandler(this.EmpNameTb_TextChanged);
             // 
             // label4
             // 

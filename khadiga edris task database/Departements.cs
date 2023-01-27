@@ -52,18 +52,7 @@ namespace khadiga_edris_task_database
         int Key = 0;
         private static DataTable DataSource;
 
-        private void DepList_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-            DepNameTb.Text = Department.SelectedRows[0].Cells[1].Value.ToString();
-            if (DepNameTb.Text == "")
-            {
-                Key = 0;
-            }
-            else
-            {
-                Key = Convert.ToInt32(Department.SelectedRows[0].Cells[0].Value.ToString());
-            }
-        }
+
         private void FditBtn_Click(object sender, EventArgs e)
         {
             try
@@ -118,6 +107,11 @@ namespace khadiga_edris_task_database
             Employee Obj = new Employee();
             Obj.Show();
             this.Hide();
+        }
+
+        private void DepNameTb_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

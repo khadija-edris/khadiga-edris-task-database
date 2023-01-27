@@ -15,9 +15,13 @@ namespace khadiga_edris_task_database
         public Employee()
         {
             InitializeComponent();
+            Con = new Funcation();
+            ShowDepartment();
         }
 
-        
-       
+        private void EmpNameTb_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

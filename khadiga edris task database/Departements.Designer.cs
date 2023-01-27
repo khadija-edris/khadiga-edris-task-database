@@ -29,12 +29,12 @@
         private void InitializeComponent() 
         { 
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Department));
-            this.FditBtn = new System.Windows.Forms.Button(); 
-            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker(); 
-            this.AddBtn = new System.Windows.Forms.Button(); 
-            this.pictureBox1 = new System.Windows.Forms.PictureBox(); 
-            this.panel2 = new System.Windows.Forms.Panel(); 
-            this.DepNameTb = new System.Windows.Forms.TextBox(); 
+            this.FditBtn = new System.Windows.Forms.Button();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.AddBtn = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.DepNameTb = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -49,64 +49,67 @@
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.label7 = new System.Windows.Forms.Label();
             this.DeleteBtn = new System.Windows.Forms.Button();
+            this.fileSystemWatcher1 = new System.IO.FileSystemWatcher();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).BeginInit();
             this.SuspendLayout();
             // 
             // FditBtn
             // 
-            this.FditBtn.BackColor = System.Drawing.Color.PaleTurquoise; 
-            this.FditBtn.FlatAppearance.BorderSize = 0; 
+            this.FditBtn.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.FditBtn.FlatAppearance.BorderSize = 0;
             this.FditBtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.FditBtn.ForeColor = System.Drawing.Color.Black; 
-            this.FditBtn.Location = new System.Drawing.Point(285, 311); 
-            this.FditBtn.Name = "FditBtn"; 
-            this.FditBtn.Size = new System.Drawing.Size(135, 53); 
-            this.FditBtn.TabIndex = 43; 
-            this.FditBtn.Text = "Update"; 
-            this.FditBtn.UseVisualStyleBackColor = false; 
+            this.FditBtn.ForeColor = System.Drawing.Color.Black;
+            this.FditBtn.Location = new System.Drawing.Point(285, 311);
+            this.FditBtn.Name = "FditBtn";
+            this.FditBtn.Size = new System.Drawing.Size(135, 53);
+            this.FditBtn.TabIndex = 43;
+            this.FditBtn.Text = "Update";
+            this.FditBtn.UseVisualStyleBackColor = false;
             // 
             // AddBtn
             // 
-            this.AddBtn.BackColor = System.Drawing.Color.Teal; 
-            this.AddBtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point); 
-            this.AddBtn.ForeColor = System.Drawing.Color.White; 
-            this.AddBtn.Location = new System.Drawing.Point(78, 311); 
-            this.AddBtn.Name = "AddBtn"; 
-            this.AddBtn.Size = new System.Drawing.Size(155, 53); 
-            this.AddBtn.TabIndex = 42; 
-            this.AddBtn.Text = "Add"; 
-            this.AddBtn.UseVisualStyleBackColor = false; 
-            this.AddBtn.Click += new System.EventHandler(this.AddBtn_Click); 
+            this.AddBtn.BackColor = System.Drawing.Color.Teal;
+            this.AddBtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.AddBtn.ForeColor = System.Drawing.Color.White;
+            this.AddBtn.Location = new System.Drawing.Point(78, 311);
+            this.AddBtn.Name = "AddBtn";
+            this.AddBtn.Size = new System.Drawing.Size(155, 53);
+            this.AddBtn.TabIndex = 42;
+            this.AddBtn.Text = "Add";
+            this.AddBtn.UseVisualStyleBackColor = false;
+            this.AddBtn.Click += new System.EventHandler(this.AddBtn_Click);
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image"))); 
-            this.pictureBox1.Location = new System.Drawing.Point(159, 154); 
-            this.pictureBox1.Name = "pictureBox1"; 
-            this.pictureBox1.Size = new System.Drawing.Size(86, 60); 
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom; 
-            this.pictureBox1.TabIndex = 37; 
-            this.pictureBox1.TabStop = false; 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(159, 154);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(86, 60);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 37;
+            this.pictureBox1.TabStop = false;
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.Teal; 
-            this.panel2.Location = new System.Drawing.Point(0, 904); 
-            this.panel2.Name = "panel2"; 
-            this.panel2.Size = new System.Drawing.Size(1359, 42); 
-            this.panel2.TabIndex = 36; 
+            this.panel2.BackColor = System.Drawing.Color.Teal;
+            this.panel2.Location = new System.Drawing.Point(0, 904);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1359, 42);
+            this.panel2.TabIndex = 36;
             // 
             // DepNameTb
             // 
-            this.DepNameTb.Location = new System.Drawing.Point(78, 248); 
-            this.DepNameTb.Name = "DepNameTb"; 
-            this.DepNameTb.Size = new System.Drawing.Size(342, 34); 
-            this.DepNameTb.TabIndex = 29; 
+            this.DepNameTb.Location = new System.Drawing.Point(78, 248);
+            this.DepNameTb.Name = "DepNameTb";
+            this.DepNameTb.Size = new System.Drawing.Size(342, 34);
+            this.DepNameTb.TabIndex = 29;
+            this.DepNameTb.TextChanged += new System.EventHandler(this.DepNameTb_TextChanged);
             // 
             // label3
             // 
@@ -248,19 +251,24 @@
             // 
             // DeleteBtn
             // 
-            this.DeleteBtn.BackColor = System.Drawing.Color.DeepPink; 
+            this.DeleteBtn.BackColor = System.Drawing.Color.DeepPink;
             this.DeleteBtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.DeleteBtn.ForeColor = System.Drawing.Color.White; 
-            this.DeleteBtn.Location = new System.Drawing.Point(179, 385); 
-            this.DeleteBtn.Name = "DeleteBtn"; 
-            this.DeleteBtn.Size = new System.Drawing.Size(155, 53); 
-            this.DeleteBtn.TabIndex = 57; 
-            this.DeleteBtn.Text = "Delete"; 
-            this.DeleteBtn.UseVisualStyleBackColor = false; 
+            this.DeleteBtn.ForeColor = System.Drawing.Color.White;
+            this.DeleteBtn.Location = new System.Drawing.Point(179, 385);
+            this.DeleteBtn.Name = "DeleteBtn";
+            this.DeleteBtn.Size = new System.Drawing.Size(155, 53);
+            this.DeleteBtn.TabIndex = 57;
+            this.DeleteBtn.Text = "Delete";
+            this.DeleteBtn.UseVisualStyleBackColor = false;
+            // 
+            // fileSystemWatcher1
+            // 
+            this.fileSystemWatcher1.EnableRaisingEvents = true;
+            this.fileSystemWatcher1.SynchronizingObject = this;
             // 
             // Department
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 28F); 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 28F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1386, 936);
@@ -297,6 +305,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -337,5 +346,6 @@
         private Button DeletBtn;
         private DataGridView DepList;
         private Button DeleteBtn;
+        private FileSystemWatcher fileSystemWatcher1;
     }
 }
