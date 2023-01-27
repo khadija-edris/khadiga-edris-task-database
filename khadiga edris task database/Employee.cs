@@ -48,7 +48,7 @@ namespace khadiga_edris_task_database
                     string Name = EmpNameTb.Text;
                     string Gender = GenCb.SelectedItem.ToString();
                     string Dep = GenCb.SelectedValue.ToString();
-                    string Name = EmpNameTb.Text;
+                    string Dop = DopTb.Value.ToString();
                     string Name = EmpNameTb.Text;
                     string Name = EmpNameTb.Text;
                     string Qurey = "insert into DepartmentTbl values(' {0} ')";
