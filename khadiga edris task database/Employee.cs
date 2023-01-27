@@ -56,8 +56,8 @@ namespace khadiga_edris_task_database
                     Qurey = string.Format(Qurey, Name, Gender, Dep, Dop, JDate, Salary);
                     Con.SetData(Qurey);
                     ShowDep();
-                    MessageBox.Show("Department Added!!!");
-                    DepNameTb.Text = "";
+                    MessageBox.Show("Employee Added!!!");
+                    EmpNameTb.Text = "";
                 }
             }
             catch (Exception Ex)
