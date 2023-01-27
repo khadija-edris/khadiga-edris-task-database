@@ -58,6 +58,7 @@
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.label12 = new System.Windows.Forms.Label();
             this.EmpList = new System.Windows.Forms.FlowLayoutPanel();
+            this.DeletBtn = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -354,12 +355,26 @@
             this.EmpList.Size = new System.Drawing.Size(785, 540);
             this.EmpList.TabIndex = 59;
             // 
+            // DeletBtn
+            // 
+            this.DeletBtn.BackColor = System.Drawing.Color.Crimson;
+            this.DeletBtn.FlatAppearance.BorderSize = 0;
+            this.DeletBtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.DeletBtn.ForeColor = System.Drawing.Color.Black;
+            this.DeletBtn.Location = new System.Drawing.Point(817, 829);
+            this.DeletBtn.Name = "DeletBtn";
+            this.DeletBtn.Size = new System.Drawing.Size(135, 53);
+            this.DeletBtn.TabIndex = 60;
+            this.DeletBtn.Text = "Delete";
+            this.DeletBtn.UseVisualStyleBackColor = false;
+            // 
             // Employee
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 28F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1386, 936);
+            this.Controls.Add(this.DeletBtn);
             this.Controls.Add(this.EmpList);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.pictureBox6);
@@ -450,5 +465,6 @@
         private PictureBox pictureBox6;
         private Label label12;
         private FlowLayoutPanel EmpList;
+        private Button DeletBtn;
     }
 }

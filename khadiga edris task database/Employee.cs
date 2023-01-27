@@ -35,7 +35,7 @@ namespace khadiga_edris_task_database
             DepCb.ValueMember = Con.GetData(Query).Columns["DepId"].ToString();
             DepCb.DataSource = Con.SetData(Query);
         }
-        private void EmpNameTb_TextChanged(object sender, EventArgs e)
+        private void AddBtn_Click(object sender, EventArgs e)
         {
             try
             {
@@ -68,5 +68,44 @@ namespace khadiga_edris_task_database
                 MessageBox.Show(Ex.Message);
             }
         }
+        private void DeletBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void DeletBtn_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (EmpNameTb.Text == "" || GenCb.SelectedIndex == -1 || DepCb.SelectedIndex == -1 || DailySalTb.Text == "")
+                {
+                    MessageBox.Show("Missing Data!!!");
+                }
+                else
+                {
+                    string Name = EmpNameTb.Text;
+                    string Gender = GenCb.SelectedItem.ToString();
+                    int Dep = Convert.ToInt32(GenCb.SelectedValue.ToString());
+                    string Dop = DopTb.Value.ToString();
+                    string JDate = JDateTb.Value.ToString();
+                    int Salary = Convert.ToInt32(DailySalTb.Text);
+
+                    string Qurey = "UPdate EmployeeTbl Set EmpName = '{0}', EmpGen = '{1}',EmpDep = '{2}', EmpDop = '{3}', EmpJDate = '{4}', EmpSal = '{5}' where EmpId = '{6}'";
+                    Qurey = string.Format(Qurey, Name, Gender, Dep, Dop, JDate, Salary, Key); 
+                    Con.SetData(Qurey);
+                    ShowDep();
+                    MessageBox.Show("Employee Added!!!");
+                    EmpNameTb.Text = "";
+                    DailySalTb.Text = "";
+                    GenCb.SelectedIndex = -1;
+                    DepCb.SelectedIndex = -1;
+                }
+            }
+            catch (Exception Ex)
+            {
+                MessageBox.Show(Ex.Message);
+            }
+        }
+        int Key = 0;
+    }
     }
 }
