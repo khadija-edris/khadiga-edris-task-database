@@ -132,6 +132,7 @@ namespace khadiga_edris_task_database
         int Key = 0;
         private void EmployeeList_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
+            EmpNameTb.Text = EmployeeList.SelectedRows[0].Cells[1].Value.ToString();
             if (EmpNameTb.Text == "")
             {
                 key = 0;
