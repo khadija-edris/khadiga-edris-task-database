@@ -50,6 +50,7 @@
             this.label7 = new System.Windows.Forms.Label();
             this.DeleteBtn = new System.Windows.Forms.Button();
             this.fileSystemWatcher1 = new System.IO.FileSystemWatcher();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -266,12 +267,20 @@
             this.fileSystemWatcher1.EnableRaisingEvents = true;
             this.fileSystemWatcher1.SynchronizingObject = this;
             // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(498, 297);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(834, 575);
+            this.flowLayoutPanel1.TabIndex = 58;
+            // 
             // Department
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 28F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1386, 936);
+            this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.DeleteBtn);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.pictureBox6);
@@ -347,5 +356,6 @@
         private DataGridView DepList;
         private Button DeleteBtn;
         private FileSystemWatcher fileSystemWatcher1;
+        private FlowLayoutPanel flowLayoutPanel1;
     }
 }

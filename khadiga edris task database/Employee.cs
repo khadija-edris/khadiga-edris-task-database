@@ -18,10 +18,10 @@ namespace khadiga_edris_task_database
         {
             InitializeComponent();
             Con = new Funcation();
-            ShowDepartment();
+            ShowDep();
 
         }
-        private void ShowDepartment()
+        private void ShowDep()
         {
             string Qurey = "Select * from DepartmentTb1";
             Department.DataSource = Con.GetData(Qurey);
