@@ -136,6 +136,7 @@
             this.label5.Size = new System.Drawing.Size(208, 28);
             this.label5.TabIndex = 13;
             this.label5.Text = "Employee Department";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label6
             // 
