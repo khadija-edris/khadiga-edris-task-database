@@ -16,5 +16,10 @@ namespace khadiga_edris_task_database
         {
 
         }
+
+        private void resetbl_Click(object sender, EventArgs e)
+        {
+            UNameTb.Text = "";
+        }
     }
 }

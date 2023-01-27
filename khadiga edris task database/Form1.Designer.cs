@@ -32,13 +32,13 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.UNameTb = new System.Windows.Forms.TextBox();
+            this.passwordTb = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.loginBtn = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.label4 = new System.Windows.Forms.Label();
+            this.resetbl = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -73,20 +73,20 @@
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             // 
-            // textBox1
+            // UNameTb
             // 
-            this.textBox1.Location = new System.Drawing.Point(276, 195);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(342, 27);
-            this.textBox1.TabIndex = 3;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.UNameTb.Location = new System.Drawing.Point(276, 195);
+            this.UNameTb.Name = "UNameTb";
+            this.UNameTb.Size = new System.Drawing.Size(342, 27);
+            this.UNameTb.TabIndex = 3;
+            this.UNameTb.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // textBox2
+            // passwordTb
             // 
-            this.textBox2.Location = new System.Drawing.Point(276, 276);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(342, 27);
-            this.textBox2.TabIndex = 4;
+            this.passwordTb.Location = new System.Drawing.Point(276, 276);
+            this.passwordTb.Name = "passwordTb";
+            this.passwordTb.Size = new System.Drawing.Size(342, 27);
+            this.passwordTb.TabIndex = 4;
             // 
             // label2
             // 
@@ -110,16 +110,16 @@
             this.label3.TabIndex = 6;
             this.label3.Text = "Password";
             // 
-            // button1
+            // loginBtn
             // 
-            this.button1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button1.ForeColor = System.Drawing.Color.Teal;
-            this.button1.Location = new System.Drawing.Point(390, 345);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(180, 44);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "LOGIN";
-            this.button1.UseVisualStyleBackColor = true;
+            this.loginBtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.loginBtn.ForeColor = System.Drawing.Color.Teal;
+            this.loginBtn.Location = new System.Drawing.Point(390, 345);
+            this.loginBtn.Name = "loginBtn";
+            this.loginBtn.Size = new System.Drawing.Size(180, 44);
+            this.loginBtn.TabIndex = 7;
+            this.loginBtn.Text = "LOGIN";
+            this.loginBtn.UseVisualStyleBackColor = true;
             // 
             // pictureBox2
             // 
@@ -131,16 +131,17 @@
             this.pictureBox2.TabIndex = 8;
             this.pictureBox2.TabStop = false;
             // 
-            // label4
+            // resetbl
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.ForeColor = System.Drawing.Color.Teal;
-            this.label4.Location = new System.Drawing.Point(445, 392);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(58, 28);
-            this.label4.TabIndex = 9;
-            this.label4.Text = "Reset";
+            this.resetbl.AutoSize = true;
+            this.resetbl.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.resetbl.ForeColor = System.Drawing.Color.Teal;
+            this.resetbl.Location = new System.Drawing.Point(445, 392);
+            this.resetbl.Name = "resetbl";
+            this.resetbl.Size = new System.Drawing.Size(58, 28);
+            this.resetbl.TabIndex = 9;
+            this.resetbl.Text = "Reset";
+            this.resetbl.Click += new System.EventHandler(this.resetbl_Click);
             // 
             // Form1
             // 
@@ -148,13 +149,13 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label4);
+            this.Controls.Add(this.resetbl);
             this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.loginBtn);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.passwordTb);
+            this.Controls.Add(this.UNameTb);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
@@ -174,12 +175,12 @@
         private Panel panel1; 
         private Label label1; 
         private PictureBox pictureBox1; 
-        private TextBox textBox1; 
-        private TextBox textBox2;
+        private TextBox UNameTb; 
+        private TextBox passwordTb;
         private Label label2;
         private Label label3;
-        private Button button1;
+        private Button loginBtn;
         private PictureBox pictureBox2;
-        private Label label4;
+        private Label resetbl;
     }
 }
