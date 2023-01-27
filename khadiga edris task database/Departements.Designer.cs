@@ -59,16 +59,16 @@
             // 
             // FditBtn
             // 
-            this.FditBtn.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.FditBtn.FlatAppearance.BorderSize = 0;
+            this.FditBtn.BackColor = System.Drawing.Color.PaleTurquoise; 
+            this.FditBtn.FlatAppearance.BorderSize = 0; 
             this.FditBtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.FditBtn.ForeColor = System.Drawing.Color.Black;
-            this.FditBtn.Location = new System.Drawing.Point(285, 311);
-            this.FditBtn.Name = "FditBtn";
-            this.FditBtn.Size = new System.Drawing.Size(135, 53);
-            this.FditBtn.TabIndex = 43;
-            this.FditBtn.Text = "Update";
-            this.FditBtn.UseVisualStyleBackColor = false;
+            this.FditBtn.ForeColor = System.Drawing.Color.Black; 
+            this.FditBtn.Location = new System.Drawing.Point(285, 311); 
+            this.FditBtn.Name = "FditBtn"; 
+            this.FditBtn.Size = new System.Drawing.Size(135, 53); 
+            this.FditBtn.TabIndex = 43; 
+            this.FditBtn.Text = "Update"; 
+            this.FditBtn.UseVisualStyleBackColor = false; 
             // 
             // AddBtn
             // 
