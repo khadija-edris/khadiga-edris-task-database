@@ -319,7 +319,7 @@
         private PictureBox pictureBox4;
         private PictureBox pictureBox6;
         private Label label7;
-        private Button button1;
+        private Button DeletBtn;
         private DataGridView DepList;
     }
 }
