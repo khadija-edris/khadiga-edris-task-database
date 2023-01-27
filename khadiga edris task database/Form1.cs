@@ -22,5 +22,13 @@ namespace khadiga_edris_task_database
             UNameTb.Text = "";
             passwordTb.Text = "";
         }
+
+        private void loginBtn_Click(object sender, EventArgs e)
+        {
+            if(UNameTb.Text == "" || passwordTb.Text == "") 
+            {
+                MessageBox.Show("Missing Date");
+            }
+        }
     }
 }
