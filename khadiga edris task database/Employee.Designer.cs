@@ -221,6 +221,7 @@
             // 
             this.DopTb.CalendarTitleBackColor = System.Drawing.SystemColors.ControlText;
             this.DopTb.CalendarTitleForeColor = System.Drawing.Color.Teal;
+            this.DopTb.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.DopTb.Location = new System.Drawing.Point(78, 507);
             this.DopTb.Name = "DopTb";
             this.DopTb.Size = new System.Drawing.Size(342, 34);
@@ -230,6 +231,7 @@
             // 
             this.JDate.CalendarTitleBackColor = System.Drawing.SystemColors.ControlText;
             this.JDate.CalendarTitleForeColor = System.Drawing.Color.Teal;
+            this.JDate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.JDate.Location = new System.Drawing.Point(78, 599);
             this.JDate.Name = "JDate";
             this.JDate.Size = new System.Drawing.Size(342, 34);
