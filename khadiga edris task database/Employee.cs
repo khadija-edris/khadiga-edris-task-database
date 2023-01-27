@@ -22,10 +22,6 @@ namespace khadiga_edris_task_database
 
         }
 
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
 
        
     }
