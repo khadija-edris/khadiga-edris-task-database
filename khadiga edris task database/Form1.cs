@@ -31,5 +31,6 @@ namespace khadiga_edris_task_database
             }
             else if (UNameTb.Text == "Admin" && passwordTb.Text == "Password") ;
         }
+        Employee Obj = new Employee();
     }
 }
