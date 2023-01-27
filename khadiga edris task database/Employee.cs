@@ -78,15 +78,10 @@ namespace khadiga_edris_task_database
                 }
                 else
                 {
-                    string Name = EmpNameTb.Text;
-                    string Gender = GenCb.SelectedItem.ToString();
-                    int Dep = Convert.ToInt32(GenCb.SelectedValue.ToString());
-                    string Dop = DopTb.Value.ToString();
-                    string JDate = JDateTb.Value.ToString();
-                    int Salary = Convert.ToInt32(DailySalTb.Text);
+                    
 
-                    string Qurey = "UPdate EmployeeTbl Set EmpName = '{0}', EmpGen = '{1}',EmpDep = '{2}', EmpDop = '{3}', EmpJDate = '{4}', EmpSal = '{5}' where EmpId = '{6}'";
-                    Qurey = string.Format(Qurey, Name, Gender, Dep, Dop, JDate, Salary, Key);
+                    string Qurey = "Delete from  EmployeeTbl where EmpId = '{0}'"; 
+                    Qurey = string.Format(Qurey, Key);
                     Con.SetData(Qurey);
                     ShowDep();
                     MessageBox.Show("Employee Added!!!");
