@@ -50,6 +50,8 @@ namespace khadiga_edris_task_database
         }
 
         int Key = 0;
+        private static DataTable DataSource;
+
         private void DepList_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             DepNameTb.Text = Department.SelectedRows[0].Cells[1].Value.ToString();
@@ -98,7 +100,7 @@ namespace khadiga_edris_task_database
                 {
                     string Dep = DepNameTb.Text;
                     string Qurey = "Deleted from DepartmentTbl where DepId = {0}";
-                    Qurey = string.Format(Qurey, DepNameTb.Text, Key);
+                    Qurey = string.Format(Qurey, Key);
                     Con.SetData(Qurey);
                     ShowDepartment();
                     MessageBox.Show("Department Deleted!!!");

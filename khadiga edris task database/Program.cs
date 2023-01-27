@@ -11,7 +11,7 @@ namespace khadiga_edris_task_database
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new Department());
+            Application.Run(new Employee());
         }
     }
 }
