@@ -24,11 +24,11 @@ namespace khadiga_edris_task_database
 
 
         }
-        public DataTable GetData(string Query);
+        public DataTable GetData(string Query)
         {
 
         dt = new DataTable();
-        sda = new SqlDataAdapter(Query, Constar);
+        sda = new SqlDataAdapter(Query, ConSter);
         sda.Fill(dt);
         return dt ;
         }
@@ -39,8 +39,8 @@ namespace khadiga_edris_task_database
         {
             Con.Open();
         }
-        Cmd.CommendText = Query;
-        cnt Cmd.ExecuteNonQuery();
+        Cmd.CommandText = Query;
+        cnt = Cmd.ExecuteNonQuery();
         return cnt;
         }
         
