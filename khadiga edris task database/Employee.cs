@@ -23,10 +23,14 @@ namespace khadiga_edris_task_database
         }
         private void ShowDep()
         {
-            string Qurey = "Select * from DepartmentTb1";
-            Department.DataSource = Con.GetData(Qurey);
+            string Qurey = "Select * from EmployeeTb1";
+            EmpList.DataSource = Con.GetData(Qurey);
         }
 
+        private void GetDepatement()
+        {
+            String Query = "Select * from Departement";
+        }
         private void EmpNameTb_TextChanged(object sender, EventArgs e)
         {
 

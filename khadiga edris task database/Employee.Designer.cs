@@ -57,7 +57,7 @@
             this.label11 = new System.Windows.Forms.Label();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.label12 = new System.Windows.Forms.Label();
-            this.DepList = new System.Windows.Forms.FlowLayoutPanel();
+            this.EmpList = new System.Windows.Forms.FlowLayoutPanel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -345,12 +345,12 @@
             this.label12.TabIndex = 55;
             this.label12.Text = "Logout";
             // 
-            // DepList
+            // EmpList
             // 
-            this.DepList.Location = new System.Drawing.Point(513, 267);
-            this.DepList.Name = "DepList";
-            this.DepList.Size = new System.Drawing.Size(785, 540);
-            this.DepList.TabIndex = 59;
+            this.EmpList.Location = new System.Drawing.Point(513, 267);
+            this.EmpList.Name = "EmpList";
+            this.EmpList.Size = new System.Drawing.Size(785, 540);
+            this.EmpList.TabIndex = 59;
             // 
             // Employee
             // 
@@ -358,7 +358,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1386, 936);
-            this.Controls.Add(this.DepList);
+            this.Controls.Add(this.EmpList);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.label11);
@@ -447,6 +447,6 @@
         private Label label11;
         private PictureBox pictureBox6;
         private Label label12;
-        private FlowLayoutPanel DepList;
+        private FlowLayoutPanel EmpList;
     }
 }

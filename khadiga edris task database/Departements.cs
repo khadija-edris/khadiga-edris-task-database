@@ -22,7 +22,7 @@ namespace khadiga_edris_task_database
         private void ShowDepartment()
         {
             string Qurey = "Select * from DepartmentTb1";
-            Department.DataSource = Con.GetData(Qurey);
+            DepList.DataSource = Con.GetData(Qurey);
         }
         private void AddBtn_Click(object sender, EventArgs e)
         {
