@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace khadiga_edris_task_database
 {
-    public partial class Departement : Form
+    public partial class Department : Form
     {
         Funcation Con;
-        public Departement()
+        public Department()
         {
             InitializeComponent();
             Con = new Funcation();
@@ -22,7 +22,7 @@ namespace khadiga_edris_task_database
         private void ShowDepartment()
         {
             string Qurey = "Select * from DepartmentTb1";
-            DepList.DataSource = Con.GetData(Qurey);
+            Department.DataSource = Con.GetData(Qurey);
         }
         private void AddBtn_Click(object sender, EventArgs e)
         {
@@ -52,14 +52,14 @@ namespace khadiga_edris_task_database
         int Key = 0;
         private void DepList_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            DepNameTb.Text = DepList.SelectedRows[0].Cells[1].Value.ToString();
+            DepNameTb.Text = Department.SelectedRows[0].Cells[1].Value.ToString();
             if (DepNameTb.Text == "")
             {
                 Key = 0;
             }
             else
             {
-                Key = Convert.ToInt32(DepList.SelectedRows[0].Cells[0].Value.ToString());
+                Key = Convert.ToInt32(Department.SelectedRows[0].Cells[0].Value.ToString());
             }
         }
         private void FditBtn_Click(object sender, EventArgs e)

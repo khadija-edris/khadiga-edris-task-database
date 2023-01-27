@@ -1,6 +1,6 @@
 ﻿namespace khadiga_edris_task_database
 {
-    partial class Departement
+    partial class Department
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Departement));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Department));
             this.FditBtn = new System.Windows.Forms.Button();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.AddBtn = new System.Windows.Forms.Button();
@@ -318,8 +318,8 @@
         private Label label8;
         private PictureBox pictureBox4;
         private PictureBox pictureBox6;
-        private ListView DepList;
         private Label label7;
         private Button button1;
+        private DataGridView DepList;
     }
 }
