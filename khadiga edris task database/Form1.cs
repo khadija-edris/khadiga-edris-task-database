@@ -27,7 +27,7 @@ namespace khadiga_edris_task_database
         {
             if(UNameTb.Text == "" || passwordTb.Text == "") 
             {
-                MessageBox.Show("Missing Date");
+                MessageBox.Show("Missing Date"); 
             }
         }
     }
