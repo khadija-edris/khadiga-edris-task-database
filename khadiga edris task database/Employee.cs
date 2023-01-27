@@ -45,7 +45,7 @@ namespace khadiga_edris_task_database
                 }
                 else
                 {
-                    string Dep = DepNameTb.Text;
+                    string Name = EmpNameTb.Text;
                     string Qurey = "insert into DepartmentTbl values(' {0} ')";
                     Qurey = string.Format(Qurey, DepNameTb.Text);
                     Con.SetData(Qurey);
