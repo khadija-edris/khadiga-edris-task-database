@@ -84,7 +84,7 @@ namespace khadiga_edris_task_database
                     Qurey = string.Format(Qurey,Key);
                     Con.SetData(Qurey);
                     ShowDep();
-                    MessageBox.Show("Employee Added!!!");
+                    MessageBox.Show("Employee Deleted!!!");
                     EmpNameTb.Text = "";
                     DailySalTb.Text = "";
                     GenCb.SelectedIndex = -1;
@@ -96,7 +96,7 @@ namespace khadiga_edris_task_database
                 MessageBox.Show(Ex.Message);
             }
         }
-        private void DeletBtn_Click(object sender, EventArgs e)
+        private void UpdateBtn_Click(object sender, EventArgs e)
         {
             try
             {
@@ -129,7 +129,11 @@ namespace khadiga_edris_task_database
                 MessageBox.Show(Ex.Message);
             }
         }
-        int Key = 0; 
-    }
+        int Key = 0;
+        private void EmployeeList_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        { 
+
+        }
+
     }
 }
