@@ -419,6 +419,11 @@
 
         }
 
+        private void EmpNameTb_TextChanged(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             throw new NotImplementedException();
