@@ -25,10 +25,11 @@ namespace khadiga_edris_task_database
 
         private void loginBtn_Click(object sender, EventArgs e)
         {
-            if(UNameTb.Text == "" || passwordTb.Text == "") 
+            if (UNameTb.Text == "" || passwordTb.Text == "")
             {
-                MessageBox.Show("Missing Date"); 
+                MessageBox.Show("Missing Date");
             }
+            else if (UNameTb.Text == "Admin" && passwordTb.Text == "Password") ;
         }
     }
 }
