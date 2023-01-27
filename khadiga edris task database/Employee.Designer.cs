@@ -33,22 +33,22 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.EmpNameTb = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.DailySalTb = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.GenCb = new System.Windows.Forms.ComboBox();
+            this.DepCb = new System.Windows.Forms.ComboBox();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.DopTb = new System.Windows.Forms.DateTimePicker();
+            this.JDate = new System.Windows.Forms.DateTimePicker();
+            this.AddBtn = new System.Windows.Forms.Button();
+            this.UpdateBtn = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label9 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -107,12 +107,12 @@
             this.label3.TabIndex = 6;
             this.label3.Text = "Employee Name";
             // 
-            // textBox1
+            // EmpNameTb
             // 
-            this.textBox1.Location = new System.Drawing.Point(78, 257);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(342, 34);
-            this.textBox1.TabIndex = 7;
+            this.EmpNameTb.Location = new System.Drawing.Point(78, 257);
+            this.EmpNameTb.Name = "EmpNameTb";
+            this.EmpNameTb.Size = new System.Drawing.Size(342, 34);
+            this.EmpNameTb.TabIndex = 7;
             // 
             // label4
             // 
@@ -171,12 +171,12 @@
             this.label8.TabIndex = 16;
             this.label8.Text = "Employee Daily Salary";
             // 
-            // textBox6
+            // DailySalTb
             // 
-            this.textBox6.Location = new System.Drawing.Point(78, 689);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(342, 34);
-            this.textBox6.TabIndex = 17;
+            this.DailySalTb.Location = new System.Drawing.Point(78, 689);
+            this.DailySalTb.Name = "DailySalTb";
+            this.DailySalTb.Size = new System.Drawing.Size(342, 34);
+            this.DailySalTb.TabIndex = 17;
             // 
             // panel2
             // 
@@ -196,67 +196,67 @@
             this.pictureBox1.TabIndex = 19;
             this.pictureBox1.TabStop = false;
             // 
-            // comboBox1
+            // GenCb
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.GenCb.FormattingEnabled = true;
+            this.GenCb.Items.AddRange(new object[] {
             "Male ",
             "Femal"});
-            this.comboBox1.Location = new System.Drawing.Point(78, 338);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(342, 36);
-            this.comboBox1.TabIndex = 20;
+            this.GenCb.Location = new System.Drawing.Point(78, 338);
+            this.GenCb.Name = "GenCb";
+            this.GenCb.Size = new System.Drawing.Size(342, 36);
+            this.GenCb.TabIndex = 20;
             // 
-            // comboBox2
+            // DepCb
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(78, 423);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(342, 36);
-            this.comboBox2.TabIndex = 21;
+            this.DepCb.FormattingEnabled = true;
+            this.DepCb.Location = new System.Drawing.Point(78, 423);
+            this.DepCb.Name = "DepCb";
+            this.DepCb.Size = new System.Drawing.Size(342, 36);
+            this.DepCb.TabIndex = 21;
             // 
-            // dateTimePicker1
+            // DopTb
             // 
-            this.dateTimePicker1.CalendarTitleBackColor = System.Drawing.SystemColors.ControlText;
-            this.dateTimePicker1.CalendarTitleForeColor = System.Drawing.Color.Teal;
-            this.dateTimePicker1.Location = new System.Drawing.Point(78, 507);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(342, 34);
-            this.dateTimePicker1.TabIndex = 22;
+            this.DopTb.CalendarTitleBackColor = System.Drawing.SystemColors.ControlText;
+            this.DopTb.CalendarTitleForeColor = System.Drawing.Color.Teal;
+            this.DopTb.Location = new System.Drawing.Point(78, 507);
+            this.DopTb.Name = "DopTb";
+            this.DopTb.Size = new System.Drawing.Size(342, 34);
+            this.DopTb.TabIndex = 22;
             // 
-            // dateTimePicker2
+            // JDate
             // 
-            this.dateTimePicker2.CalendarTitleBackColor = System.Drawing.SystemColors.ControlText;
-            this.dateTimePicker2.CalendarTitleForeColor = System.Drawing.Color.Teal;
-            this.dateTimePicker2.Location = new System.Drawing.Point(78, 599);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(342, 34);
-            this.dateTimePicker2.TabIndex = 23;
+            this.JDate.CalendarTitleBackColor = System.Drawing.SystemColors.ControlText;
+            this.JDate.CalendarTitleForeColor = System.Drawing.Color.Teal;
+            this.JDate.Location = new System.Drawing.Point(78, 599);
+            this.JDate.Name = "JDate";
+            this.JDate.Size = new System.Drawing.Size(342, 34);
+            this.JDate.TabIndex = 23;
             // 
-            // button1
+            // AddBtn
             // 
-            this.button1.BackColor = System.Drawing.Color.Teal;
-            this.button1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(78, 739);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(155, 53);
-            this.button1.TabIndex = 24;
-            this.button1.Text = "Add";
-            this.button1.UseVisualStyleBackColor = false;
+            this.AddBtn.BackColor = System.Drawing.Color.Teal;
+            this.AddBtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.AddBtn.ForeColor = System.Drawing.Color.White;
+            this.AddBtn.Location = new System.Drawing.Point(78, 739);
+            this.AddBtn.Name = "AddBtn";
+            this.AddBtn.Size = new System.Drawing.Size(155, 53);
+            this.AddBtn.TabIndex = 24;
+            this.AddBtn.Text = "Add";
+            this.AddBtn.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // UpdateBtn
             // 
-            this.button2.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.Location = new System.Drawing.Point(285, 739);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(135, 53);
-            this.button2.TabIndex = 25;
-            this.button2.Text = "Update";
-            this.button2.UseVisualStyleBackColor = false;
+            this.UpdateBtn.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.UpdateBtn.FlatAppearance.BorderSize = 0;
+            this.UpdateBtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.UpdateBtn.ForeColor = System.Drawing.Color.Black;
+            this.UpdateBtn.Location = new System.Drawing.Point(285, 739);
+            this.UpdateBtn.Name = "UpdateBtn";
+            this.UpdateBtn.Size = new System.Drawing.Size(135, 53);
+            this.UpdateBtn.TabIndex = 25;
+            this.UpdateBtn.Text = "Update";
+            this.UpdateBtn.UseVisualStyleBackColor = false;
             // 
             // pictureBox2
             // 
@@ -357,21 +357,21 @@
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.dateTimePicker2);
-            this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.UpdateBtn);
+            this.Controls.Add(this.AddBtn);
+            this.Controls.Add(this.JDate);
+            this.Controls.Add(this.DopTb);
+            this.Controls.Add(this.DepCb);
+            this.Controls.Add(this.GenCb);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel2);
-            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.DailySalTb);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.EmpNameTb);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.panel1);
@@ -392,28 +392,43 @@
 
         }
 
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
         #endregion
 
         private Panel panel1;
         private Label label1;
         private Label label2;
         private Label label3;
-        private TextBox textBox1;
+        private TextBox EmpNameTb;
         private Label label4;
         private Label label5;
         private Label label6;
         private Label label7;
         private Label label8;
-        private TextBox textBox6;
+        private TextBox DailySalTb;
         private Panel panel2;
         private PictureBox pictureBox1;
-        private ComboBox comboBox1;
-        private ComboBox comboBox2;
+        private ComboBox GenCb;
+        private ComboBox DepCb;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
-        private DateTimePicker dateTimePicker1;
-        private DateTimePicker dateTimePicker2;
-        private Button button1;
-        private Button button2;
+        private DateTimePicker DopTb;
+        private DateTimePicker JDate;
+        private Button AddBtn;
+        private Button UpdateBtn;
         private PictureBox pictureBox2;
         private Label label9;
         private PictureBox pictureBox3;

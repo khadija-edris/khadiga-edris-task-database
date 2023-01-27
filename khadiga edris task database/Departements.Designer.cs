@@ -41,14 +41,14 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.label5 = new System.Windows.Forms.Label();
+            this.EmpLbl = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.DepList = new System.Windows.Forms.ListView();
             this.label7 = new System.Windows.Forms.Label();
+            this.DeleteBtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -172,16 +172,16 @@
             this.pictureBox2.TabIndex = 45;
             this.pictureBox2.TabStop = false;
             // 
-            // label5
+            // EmpLbl
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label5.ForeColor = System.Drawing.Color.Teal;
-            this.label5.Location = new System.Drawing.Point(562, 144);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(98, 28);
-            this.label5.TabIndex = 46;
-            this.label5.Text = "Employee";
+            this.EmpLbl.AutoSize = true;
+            this.EmpLbl.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.EmpLbl.ForeColor = System.Drawing.Color.Teal;
+            this.EmpLbl.Location = new System.Drawing.Point(562, 144);
+            this.EmpLbl.Name = "EmpLbl";
+            this.EmpLbl.Size = new System.Drawing.Size(98, 28);
+            this.EmpLbl.TabIndex = 46;
+            this.EmpLbl.Text = "Employee";
             // 
             // pictureBox3
             // 
@@ -235,14 +235,6 @@
             this.pictureBox6.TabIndex = 53;
             this.pictureBox6.TabStop = false;
             // 
-            // DepList
-            // 
-            this.DepList.Location = new System.Drawing.Point(505, 292);
-            this.DepList.Name = "DepList";
-            this.DepList.Size = new System.Drawing.Size(826, 606);
-            this.DepList.TabIndex = 55;
-            this.DepList.UseCompatibleStateImageBehavior = false;
-            // 
             // label7
             // 
             this.label7.AutoSize = true;
@@ -254,20 +246,32 @@
             this.label7.TabIndex = 56;
             this.label7.Text = "Department List";
             // 
-            // Departement
+            // DeleteBtn
+            // 
+            this.DeleteBtn.BackColor = System.Drawing.Color.DeepPink;
+            this.DeleteBtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.DeleteBtn.ForeColor = System.Drawing.Color.White;
+            this.DeleteBtn.Location = new System.Drawing.Point(179, 385);
+            this.DeleteBtn.Name = "DeleteBtn";
+            this.DeleteBtn.Size = new System.Drawing.Size(155, 53);
+            this.DeleteBtn.TabIndex = 57;
+            this.DeleteBtn.Text = "Delete";
+            this.DeleteBtn.UseVisualStyleBackColor = false;
+            // 
+            // Department
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 28F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1386, 936);
+            this.Controls.Add(this.DeleteBtn);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.DepList);
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.label5);
+            this.Controls.Add(this.EmpLbl);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.FditBtn);
@@ -282,7 +286,7 @@
             this.ForeColor = System.Drawing.Color.White;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4);
-            this.Name = "Departement";
+            this.Name = "Department";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Departements";
             this.Load += new System.EventHandler(this.Departements_Load);
@@ -298,6 +302,17 @@
 
         }
 
+        private static void NewMethod()
+        {
+            NewMethod();
+        }
+
+        private void Departements_Load(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+       
         #endregion
 
         private Button FditBtn;
@@ -312,7 +327,7 @@
         private Panel panel1;
         private Label label4;
         private PictureBox pictureBox2;
-        private Label label5;
+        private Label EmpLbl;
         private PictureBox pictureBox3;
         private Label label6;
         private Label label8;
@@ -321,5 +336,6 @@
         private Label label7;
         private Button DeletBtn;
         private DataGridView DepList;
+        private Button DeleteBtn;
     }
 }
