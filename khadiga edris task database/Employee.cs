@@ -51,10 +51,11 @@ namespace khadiga_edris_task_database
                     string Dop = DopTb.Value.ToString();
                     string JDate = JDateTb.Value.ToString();
                     int  Salary = Convert.ToInt32(DailySalTb.Text);
-                    string Qurey = "insert into DepartmentTbl values(' {0} ')";
-                    Qurey = string.Format(Qurey, DepNameTb.Text);
+
+                    string Qurey = "insert into EmployeeTbl values(' {0} ','{1}','{2}','{3}','{4}','{5}')";
+                    Qurey = string.Format(Qurey, Name, Gender, Dep, Dop, JDate, Salary);
                     Con.SetData(Qurey);
-                    ShowDepartment();
+                    ShowDep();
                     MessageBox.Show("Department Added!!!");
                     DepNameTb.Text = "";
                 }
