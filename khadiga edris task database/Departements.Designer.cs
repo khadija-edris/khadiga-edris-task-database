@@ -248,15 +248,15 @@
             // 
             // DeleteBtn
             // 
-            this.DeleteBtn.BackColor = System.Drawing.Color.DeepPink;
+            this.DeleteBtn.BackColor = System.Drawing.Color.DeepPink; 
             this.DeleteBtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.DeleteBtn.ForeColor = System.Drawing.Color.White;
-            this.DeleteBtn.Location = new System.Drawing.Point(179, 385);
-            this.DeleteBtn.Name = "DeleteBtn";
-            this.DeleteBtn.Size = new System.Drawing.Size(155, 53);
-            this.DeleteBtn.TabIndex = 57;
-            this.DeleteBtn.Text = "Delete";
-            this.DeleteBtn.UseVisualStyleBackColor = false;
+            this.DeleteBtn.ForeColor = System.Drawing.Color.White; 
+            this.DeleteBtn.Location = new System.Drawing.Point(179, 385); 
+            this.DeleteBtn.Name = "DeleteBtn"; 
+            this.DeleteBtn.Size = new System.Drawing.Size(155, 53); 
+            this.DeleteBtn.TabIndex = 57; 
+            this.DeleteBtn.Text = "Delete"; 
+            this.DeleteBtn.UseVisualStyleBackColor = false; 
             // 
             // Department
             // 
