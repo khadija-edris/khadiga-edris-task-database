@@ -72,7 +72,7 @@ namespace khadiga_edris_task_database
         {
             try
             {
-                if (EmpNameTb.Text == "" || GenCb.SelectedIndex == -1 || DepCb.SelectedIndex == -1 || DailySalTb.Text == "")
+                if (Key == 0)
                 {
                     MessageBox.Show("Missing Data!!!");
                 }
