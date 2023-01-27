@@ -29,7 +29,7 @@
         private void InitializeComponent() 
         { 
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Department));
-            this.FditBtn = new System.Windows.Forms.Button();
+            this.FditBtn = new System.Windows.Forms.Button(); 
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.AddBtn = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
