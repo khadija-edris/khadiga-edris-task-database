@@ -10,6 +10,7 @@ using System.Windows.Forms;
 
 namespace khadiga_edris_task_database
 {
+    Funcation Con;
     public partial class Employee : Form
     {
         public Employee()
