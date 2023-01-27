@@ -29,8 +29,18 @@ namespace khadiga_edris_task_database
             {
                 MessageBox.Show("Missing Date");
             }
-            else if (UNameTb.Text == "Admin" && passwordTb.Text == "Password") ;
+            else if (UNameTb.Text == "Admin" && passwordTb.Text == "Password")
+            {
+                Employee Obj = new Employee();
+                Obj.Show();
+                this.Hide();
+            }
+            else
+            {
+
+            }
         }
-        Employee Obj = new Employee();
+        
+
     }
 }
