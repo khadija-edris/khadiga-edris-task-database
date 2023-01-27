@@ -81,7 +81,7 @@ namespace khadiga_edris_task_database
                     
 
                     string Qurey = "Delete from  EmployeeTbl where EmpId = '{0}'"; 
-                    Qurey = string.Format(Qurey, Key);
+                    Qurey = string.Format(Qurey,Key);
                     Con.SetData(Qurey);
                     ShowDep();
                     MessageBox.Show("Employee Added!!!");
