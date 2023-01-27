@@ -101,7 +101,7 @@ namespace khadiga_edris_task_database
                     Qurey = string.Format(Qurey, DepNameTb.Text, Key);
                     Con.SetData(Qurey);
                     ShowDepartment();
-                    MessageBox.Show("Department Updated!!!");
+                    MessageBox.Show("Department Deleted!!!");
                     DepNameTb.Text = "";
                 }
             }
