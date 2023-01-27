@@ -1,4 +1,4 @@
-﻿namespace khadiga_edris_task_database
+﻿namespace khadiga_edris_task_database 
 {
     partial class Department
     {
