@@ -10,14 +10,21 @@ using System.Windows.Forms;
 
 namespace khadiga_edris_task_database
 {
-    Funcation Con;
+    
     public partial class Employee : Form
     {
+        Funcation Con;
         public Employee()
         {
             InitializeComponent();
             Con = new Funcation();
             ShowDepartment();
+
+        }
+        private void ShowDepartment()
+        {
+            string Qurey = "Select * from DepartmentTb1";
+            Department.DataSource = Con.GetData(Qurey);
         }
 
         private void EmpNameTb_TextChanged(object sender, EventArgs e)
