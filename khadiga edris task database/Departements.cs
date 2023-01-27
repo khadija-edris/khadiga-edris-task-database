@@ -76,7 +76,7 @@ namespace khadiga_edris_task_database
                 {
                     string Dep = DepNameTb.Text;
                     string Qurey = "Update DepartmentTbl set DepName = '{0}' where DepId = {1}";
-                    Qurey = string.Format(Qurey, DepNameTb.Text,Key);
+                    Qurey = string.Format(Qurey, DepNameTb.Text, Key);
                     Con.SetData(Qurey);
                     ShowDepartment();
                     MessageBox.Show("Department Updated!!!");
@@ -113,4 +113,9 @@ namespace khadiga_edris_task_database
             }
 
         }
+        private void EmpLbl_Click (object sender, EventArgs e)
+        {
+
+        }
+    }
 }

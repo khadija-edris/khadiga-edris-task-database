@@ -14,7 +14,7 @@ namespace khadiga_edris_task_database
         private SqlCommand Cmd;
         private DataTable dt;
         private SqlDataAdapter sda;
-        private string ConSter;
+        private string ConSter; 
         public Funcation()
         {
             ConSter =@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\LENOVO\Documents\EmpD.mdf;Integrated Security=True;Connect Timeout=30";
