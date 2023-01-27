@@ -95,11 +95,11 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.Teal;
-            this.panel2.Location = new System.Drawing.Point(0, 904);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1359, 42);
-            this.panel2.TabIndex = 36;
+            this.panel2.BackColor = System.Drawing.Color.Teal; 
+            this.panel2.Location = new System.Drawing.Point(0, 904); 
+            this.panel2.Name = "panel2"; 
+            this.panel2.Size = new System.Drawing.Size(1359, 42); 
+            this.panel2.TabIndex = 36; 
             // 
             // DepNameTb
             // 
